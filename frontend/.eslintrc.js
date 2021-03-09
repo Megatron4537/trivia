@@ -23,10 +23,11 @@ module.exports = {
     'max-len': [
       'error',
       {
-        code: 120,
+        code: 140,
       },
     ],
     'no-console': ['error', { allow: ['error'] }],
+    'no-unused-vars': 2,
   },
   ignorePatterns: ['**/node_modules', '**/coverage'],
 };

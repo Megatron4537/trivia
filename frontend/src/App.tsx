@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 
-import { Container, Row, Col, Navbar, NavDropdown, Nav, Form, FormControl, Button } from 'react-bootstrap';
-import { Theme, lightTheme, ThemeContext } from 'shared/Theme';
+import { Container, Row, Navbar, NavDropdown, Nav, Form, FormControl, Button } from 'react-bootstrap';
+import { lightTheme, ThemeContext } from './shared/Theme';
 
 const App: React.FC = () => {
   return (
